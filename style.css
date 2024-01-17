@@ -164,3 +164,250 @@ nav i{
 #page3 img{
     width: 23%;
 }
+#page4{
+    height: 150vh;
+    width: 100%;
+    background-color: #C5BDB3;
+    display: flex;
+    justify-content: space-between;
+}
+.left4{
+    width: 60%;
+}
+.left4 img{
+  width: 100%;
+}
+.top4{
+    display: flex;
+}
+.tl{
+    width: 40%;
+    font-family:"domaine" ;
+    padding: 60px 30px;
+    border-right: 1px solid rgb(48, 48, 48);
+}
+.tl h2{
+    font-size: 50px;
+}
+.tl h3{
+    font-size: 40px;
+    font-weight: 100;
+}
+.tr{
+    width: 60%;
+}
+.right4{
+    width: 35%;
+   padding: 40px 10px 0 0;
+}
+.right4 h1{
+    font-family:canopee;
+    font-size: 110px;
+    line-height: 140px;
+    font-weight: 500;
+    word-spacing: -20px;
+}
+.right4 h1 span{
+    font-size: 210px;
+}
+.right4 p{
+    font-family:domaine;
+    font-size: 30px;
+    color: #444444;
+}
+.circle{
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    overflow: hidden;
+    margin-top: 40px;
+    font-family: canopee;
+    background-color: #C9C0B6;
+}
+.circle h2{
+       transform: translateX(-6%);
+       transition: all ease .6s;
+}
+.circle i{
+    transform: translateX(-310%);
+    transition: all ease .6s;
+}
+.circle:hover h2{
+        transform: translateX(209%);   
+}
+.circle:hover i{
+    transform: translateX(260%);
+}
+
+#page5{
+    height: 200px;
+    width: 100%;
+    background-color:#C5BDB3;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    border: 1px solid rgb(61, 61, 61);
+}
+.item-5{
+    display: flex;
+    font-family: domaine;
+}
+.item-5 h3{
+   font-weight: 100;
+   font-size: 30px;
+}
+.item-5 h2{
+    font-size: 50px;
+}
+.inner-item5{
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+.num-item5{
+    font-size: 90px;
+    margin-left: 10px;
+}
+#page6{
+    height: 100vh;
+    width: 100%;
+    background-color:#C5BDB3;
+    display: flex;
+    padding: 20px;
+}
+.left6{
+   width: 55%;
+   font-family: canopee;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   line-height: 390px;
+   letter-spacing: -10px;
+   /* padding: 20px; */
+}
+.right6{
+   width: 45%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.left6 img{
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+}
+.left6-top{
+    display: flex;
+    align-items: center;
+}
+.left6-top h1{
+    font-weight: 200;
+    font-size: 400px;
+}
+.left6-bottom h1{
+    font-size: 480px;
+    font-weight: 100;
+}
+.right6 img{
+    width:99%;
+    height: 99%;
+}
+#page7{
+    height: 110vh;
+    width: 100%;
+    background-color: #C5BDB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top7{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 390px;
+    letter-spacing: -10px;
+   
+}
+.top7 img{
+    width: 30%;
+    height: 80%;
+    border: 1px solid black;
+}
+.top7 h1{
+    font-family: canopee;
+    font-size: 380px;
+    font-weight: 200;
+}
+.bottom7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.bottom7 h1{
+    font-size: 300px;
+    font-family: canopee;
+    color: #C5BDB3;
+    font-weight: 200;
+    padding:0 30px;
+    background-color: #1C1B19;
+    margin: 0px 30px;
+}
+.bottom7 p{
+    font-family: domaine;
+    font-size: 30px;
+    color: #444444;
+    padding: 10px;
+}
+.bottom7 span{
+    color: #1C1B19;
+    font-size: 150px;
+    font-weight: 400;
+    font-family: canopee;
+    letter-spacing: -3px;
+}
+#page8{
+    height: 220px;
+    width: 100%;
+    background-color: #C5BDB3;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid rgb(39, 39, 39);
+    border-bottom: 1px solid rgb(39, 39, 39);
+  
+}
+#page8 p{
+    font-size: 100px;
+    display: inline;
+    font-family: domaine;
+    margin-right: 30px;
+    animation: scroll 3s linear infinite ;
+   
+}
+#page8::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes scroll {
+    0%{
+     transform: translateX(0);
+    }
+    100%{
+      transform: translateX(calc(-100%));
+    }
+}
+#page8 p span{
+    font-family: canopee;
+    background-color: #1b1b1b;
+    color: #C4BCB3;
+    padding: 0 12px;
+}
